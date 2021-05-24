@@ -6,7 +6,7 @@ var dependencies: [Package.Dependency] = [
     .package(url: "https://github.com/apple/swift-tools-support-core.git", .exact("0.1.5")),
 ]
 
-dependencies.append(.package(name: "SwiftSyntax", url: "https://github.com/apple/swift-syntax.git", .branch("swift-5.3-RELEASE")))
+dependencies.append(.package(name: "SwiftSyntax", url: "https://github.com/apple/swift-syntax.git", .exact("0.50300.0")))
 
 let package = Package(
     name: "Mockolo",
